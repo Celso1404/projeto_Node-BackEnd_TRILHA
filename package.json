@@ -1,0 +1,14 @@
+{
+  "name": "projeto_node",
+  "version": "1.0.0",
+  "description": "Projeto da trilha de dev FullStack || 2026",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Celso_Bitello",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
