@@ -12,11 +12,7 @@ module.exports = (app)=> {
             });
     });
 
-    app.get('/users/admin', (req, res)=> {
-        res.statuscode = 200;
-            res.setHeader('Content-type', 'application/json');
-            res.json({ //retorna o json
-                users: []      
-            });
+    app.post('/users', (req, res)=> {
+            res.json(req.body);
     });
 };
